@@ -8,6 +8,8 @@ No changes to the files have been made instead I just followed along, I will upd
 
 ## Bare Bones
 
+### Quickstart
+
 Steps to compile and run this code on linux systems. (Tested on wsl2-ubuntu-24.04)
 
 - **Step 1:** Download the cross compiler as helpfully provided by github user `lordmilko`
@@ -39,3 +41,8 @@ qemu-system-i386 -kernel tutos.bin
 And the output will look something like this.
 ![The grub menu](./assets/images/bare-bones-grub-menu.png)
 ![The hello world displayed](./assets/images/bare-bones-hello-world.png)
+
+### Reference
+
+- [osdev bares bones tutorial page](https://wiki.osdev.org/Bare_Bones)
+- [lordmilko i686 tools](https://github.com/lordmilko/i686-elf-tools)
