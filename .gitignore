@@ -1,0 +1,6 @@
+*.o
+*.bin
+*.iso
+i686-elf
+isodir
+
